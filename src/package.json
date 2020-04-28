@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "antd": "latest",
+    "moment": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "5.3.1"
+  },
+  "keywords": [
+    "antd",
+    "ant",
+    "react"
+  ],
+  "name": "antd-template",
+  "description": "Ant design starter"
+}

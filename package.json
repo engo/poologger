@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "antd": "latest",
+    "moment": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "5.3.1"
+  },
+  "keywords": [
+    "antd",
+    "ant",
+    "react"
+  ],
+  "name": "wz1iw",
+  "description": "Ant design starter",
+  "version": "0.0.8",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
