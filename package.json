@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "antd": "latest",
-    "moment": "latest",
+    "moment": "2.26.0",
     "react": "latest",
     "react-dom": "latest",
     "react-hook-form": "5.3.1"
