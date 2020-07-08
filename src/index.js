@@ -71,8 +71,6 @@ function App() {
     setPoop(dates.filter(date => date.id !== id))
   }
 
-  const now = moment();
-
   return (
     <Layout className="layout">
       <Menu mode="horizontal">
