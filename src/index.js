@@ -134,9 +134,15 @@ function App() {
             ]}
           >
             <Radio.Group on onChange={handlePoopChange}>
-              <Radio.Button value="4">4 + 💩</Radio.Button>
-              <Radio.Button value="3">3 💩</Radio.Button>
-              <Radio.Button value="2">2 💩</Radio.Button>
+              <Radio.Button value="4">4 + <span role="img" aria-lablelledby="poo">
+                💩
+                </span></Radio.Button>
+              <Radio.Button value="3">3 <span role="img" aria-lablelledby="poo">
+                💩
+                </span></Radio.Button>
+              <Radio.Button value="2">2 <span role="img" aria-lablelledby="poo">
+                💩
+                </span></Radio.Button>
               <Radio.Button value="1">
                 1{" "}
                 <span role="img" aria-lablelledby="poo">
