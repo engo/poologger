@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/poops",
+            "lambdaFunction": "pooplogger",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "myapi",
+    "apiName": "myapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "pooplogger"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-poologger-dev-115417-authRole",
+        "unAuthRoleName": "amplify-poologger-dev-115417-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "pooplogger",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

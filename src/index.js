@@ -7,9 +7,7 @@ import moment from "moment";
 import MomentReact from 'react-moment';
 import "antd/dist/antd.css";
 import "./index.css";
-import { Fragment } from "react";
-import { MailOutlined, AppstoreOutlined, SettingOutlined, SmileTwoTone } from '@ant-design/icons';
-const { Header, Content } = 'Layout';
+import { SmileTwoTone } from '@ant-design/icons';
 
 
 function App() {

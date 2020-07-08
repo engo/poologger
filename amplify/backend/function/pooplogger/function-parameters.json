@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "storage": {
+            "dynamo87395843": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}
