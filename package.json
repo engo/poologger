@@ -4,7 +4,9 @@
     "moment": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-hook-form": "5.3.1"
+    "react-hook-form": "^5.3.1",
+    "react-moment": "^0.9.7",
+    "react-router": "^5.2.0"
   },
   "keywords": [
     "antd",
@@ -19,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

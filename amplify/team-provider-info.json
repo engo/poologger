@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-poologger-dev-115417-authRole",
+            "UnauthRoleArn": "arn:aws:iam::760675763488:role/amplify-poologger-dev-115417-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::760675763488:role/amplify-poologger-dev-115417-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-poologger-dev-115417-deployment",
+            "UnauthRoleName": "amplify-poologger-dev-115417-unauthRole",
+            "StackName": "amplify-poologger-dev-115417",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:760675763488:stack/amplify-poologger-dev-115417/7a924460-be62-11ea-8518-06e223705692",
+            "AmplifyAppId": "denmgp0cwd1rm"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe711ae03": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "tableName": "dynamo87395843",
+    "partitionKeyName": "poop",
+    "partitionKeyType": "N",
+    "sortKeyName": "date",
+    "sortKeyType": "N"
+}
