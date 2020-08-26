@@ -4,7 +4,7 @@
     "moment": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-hook-form": "5.3.1"
+    "react-hook-form": "5.5.3"
   },
   "keywords": [
     "antd",
