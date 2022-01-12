@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "antd": "latest",
+    "antd": "4.17.0",
     "moment": "latest",
     "react": "latest",
     "react-dom": "latest",
